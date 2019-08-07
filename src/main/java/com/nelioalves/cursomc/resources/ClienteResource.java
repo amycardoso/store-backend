@@ -14,7 +14,7 @@ import com.nelioalves.cursomc.domain.Cliente;
 import com.nelioalves.cursomc.services.ClienteService;
 
 @RestController
-@RequestMapping(value = "/cliente")
+@RequestMapping(value = "/clientes")
 public class ClienteResource {
 	@Autowired
 	private ClienteService service;
