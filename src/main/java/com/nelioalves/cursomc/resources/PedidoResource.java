@@ -1,8 +1,6 @@
 package com.nelioalves.cursomc.resources;
 
 import java.net.URI;
-import java.util.ArrayList;
-import java.util.List;
 
 import javax.validation.Valid;
 
@@ -15,9 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.nelioalves.cursomc.domain.Categoria;
 import com.nelioalves.cursomc.domain.Pedido;
-import com.nelioalves.cursomc.dto.CategoriaDTO;
 import com.nelioalves.cursomc.services.PedidoService;
 
 @RestController
