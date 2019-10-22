@@ -52,12 +52,12 @@ public class SwaggerConfig {
 	
 	private ApiInfo apiInfo() {
 		 return new ApiInfo(
-				 "API do curso Spring Boot",
-				 "Esta API foi utilizada no curso de Spring Boot do prof. Nelio Alves",
+				 "Spring Boot Course REST API",
+				 "This API was used in Professor Nelio Alves' Spring Boot course.",
 				 "Versão 1.0",
 				 "https://www.udemy.com/terms",
 				 new Contact("Nelio Alves", "udemy.com/user/nelio-alves", "nelio.cursos@gmail.com"),
-				 "Permitido uso para estudantes",
+				 "Student use allowed",
 				 "https://www.udemy.com/terms",
 				 Collections.emptyList() // Vendor Extensions
 		);
